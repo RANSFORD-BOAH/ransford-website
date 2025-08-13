@@ -1,2 +1,2 @@
 # ransford-website
-“Ran’s first web portfolio project”
+“Ranford’s first web portfolio project”
