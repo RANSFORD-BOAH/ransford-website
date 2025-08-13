@@ -2,55 +2,114 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Boah Ransford — Agriculture student focused on sustainable creating favorable environment for farm animals.">
+  <title>Boah Ransford</title>
   <style>
+    :root {
+      --bg-light: #f5f5f5;
+      --text-light: #222;
+      --bg-dark: #121212;
+      --text-dark: #f5f5f5;
+      --accent: #4CAF50;
+    }
     body {
-      background-color: #f0f4f8;
       font-family: Arial, sans-serif;
-      padding: 20px;
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      margin: 0;
+      padding: 0;
+      transition: background 0.3s, color 0.3s;
     }
-    .container {
-      background: white;
-      max-width: 600px;
-      margin: auto;
+    header {
       padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
       text-align: center;
-    }
-    img {
-      width: 150px;
-      border-radius: 50%;
-      margin-bottom: 20px;
+      background: var(--accent);
+      color: white;
     }
     h1 {
-      color: #2c3e50;
+      margin: 0;
     }
-    p {
-      color: #34495e;
+    nav {
+      margin-top: 10px;
     }
-    .btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
-      background-color: #3498db;
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .dark-mode {
+      background-color: var(--bg-dark);
+      color: var(--text-dark);
+    }
+    .dark-mode header {
+      background: var(--accent);
+    }
+    .toggle-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      background: var(--accent);
       color: white;
       border: none;
-      border-radius: 8px;
-      text-decoration: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      background: #333;
+      color: white;
+    }
+    .profile-img {
+      display: block;
+      max-width: 200px;
+      border-radius: 10px;
+      margin: 20px auto;
     }
   </style>
 </head>
 <body>
+  <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  <header>
+    <h1>Boah Ransford</h1>
+    <p>Agriculture student focused on sustainable creating favorable environment for farm animals.</p>
+    <img src="profile.jpg" alt="Boah Ransford" class="profile-img">
+    <nav>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a href="https://www.linkedin.com/in/ransford-boah" target="_blank">LinkedIn</a>
+      <a href="https://ransford-boah.github.io/ransford-website/" target="_blank">GitHub</a>
+    </nav>
+  </header>
   <div class="container">
-    <img src="myphoto.jpg" alt="My Photo">
-    <h1>Hello, I'm Ran!</h1>
-    <p>I'm a BSc Agriculture student learning how to build websites, analyze data, and develop mobile apps.</p>
-    <p>I enjoy brainstorming, checkers, and learning new tech skills.</p>
-    
-    <!-- 🔽 Both buttons placed correctly below -->
-    <a href="https://www.knust.edu.gh" target="_blank" class="btn">Visit My School</a>
-    <a href="projects.html" class="btn">My Projects</a>
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <p><strong>BSc Agriculture</strong> — Focus on sustainable livestock management and environmental health for farm animals.</p>
+    </section>
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:Boahransford58@gmail.com">Boahransford58@gmail.com</a></p>
+    </section>
   </div>
+  <footer>
+    &copy; 2025 Boah Ransford. All Rights Reserved.
+  </footer>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
 </body>
 </html>
