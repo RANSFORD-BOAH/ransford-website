@@ -1,167 +1,135 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Boah Ransford — BSc Agriculture</title>
-  <meta name="description" content="Boah Ransford — Agriculture student focused on creating favorable environments for farm animals and sustainable livestock management." />
-  <meta name="keywords" content="Boah Ransford, BSc Agriculture, livestock management, sustainable farming, farm animals, Ghana, KNUST" />
-  <meta name="author" content="Boah Ransford" />
-  <meta name="robots" content="index, follow" />
-  <!-- Google AdSense publisher script (your publisher ID is included) -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5789356814608028"
-     crossorigin="anonymous"></script>
+<!doctype html>
+<html ⚡ lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>Ransford Boah - Agriculture Student & Future Animal Scientist</title>
 
-  <!-- JSON-LD Person Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Boah Ransford",
-    "email": "mailto:Boahransford58@gmail.com",
-    "jobTitle": "BSc Agriculture student",
-    "description": "Agriculture student focused on creating favorable environments for farm animals and sustainable livestock management.",
-    "sameAs": [
-      "https://www.linkedin.com/in/ransford-boah",
-      "https://ransford-boah.github.io/ransford-website/"
-    ]
-  }
-  </script>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Official portfolio of Ransford Boah, a passionate Agriculture student at KNUST aspiring to become an Animal Scientist. Contact me via phone or WhatsApp.">
+    <meta name="keywords" content="Ransford Boah, Agriculture Student, KNUST, Animal Scientist, Ghana, Portfolio">
+    <meta name="author" content="Ransford Boah">
 
-  <style>
-    /* (styles kept same as your current design) */
-    :root{
-      --bg-light:#f5f7f9;
-      --text-light:#222;
-      --bg-dark:#0f1720;
-      --text-dark:#eef2f5;
-      --accent:#2f9e44;
-      --card-bg: #ffffff;
+    <!-- Open Graph (Facebook & LinkedIn) -->
+    <meta property="og:title" content="Ransford Boah - Agriculture Student & Future Animal Scientist">
+    <meta property="og:description" content="Explore my portfolio and journey as an Agriculture student at KNUST aspiring to become an Animal Scientist.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:image" content="https://yourdomain.com/profile.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ransford Boah - Agriculture Student & Future Animal Scientist">
+    <meta name="twitter:description" content="Welcome to my official portfolio website. Contact me on phone or WhatsApp.">
+    <meta name="twitter:image" content="https://yourdomain.com/profile.jpg">
+
+    <!-- Structured Data (Schema.org for SEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ransford Boah",
+      "jobTitle": "Agriculture Student",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Kwame Nkrumah University of Science and Technology (KNUST)"
+      },
+      "alumniOf": "KNUST",
+      "url": "https://yourdomain.com/",
+      "sameAs": [
+        "https://wa.me/233595398491",
+        "tel:+233595398491"
+      ],
+      "description": "A passionate Agriculture student aspiring to become an Animal Scientist."
     }
-    html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;}
-    body{background:var(--bg-light);color:var(--text-light);transition:background .28s,color .28s;-webkit-font-smoothing:antialiased;}
-    .dark-mode{background:var(--bg-dark);color:var(--text-dark);}
-    header{background:linear-gradient(90deg,var(--accent), #39b54a 60%);color:white;padding:32px 18px 22px;text-align:center;}
-    .container{max-width:920px;margin:22px auto;padding:0 18px;}
-    h1{margin:0;font-size:1.9rem;letter-spacing:0.2px;}
-    .tagline{margin:6px 0 14px;opacity:.95;}
-    .profile-img{width:160px;height:160px;border-radius:50%;object-fit:cover;border:4px solid rgba(255,255,255,0.9);box-shadow:0 6px 18px rgba(0,0,0,0.16);display:block;margin:16px auto;}
-    nav{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:8px;}
-    nav a{color:white;text-decoration:none;font-weight:600;padding:8px 12px;border-radius:8px;display:inline-flex;align-items:center;gap:8px;transition:background .18s,transform .12s; font-size:0.95rem;}
-    nav a:hover{background:rgba(255,255,255,0.12);transform:translateY(-2px);}
-    .icon{width:18px;height:18px;display:inline-block;vertical-align:middle;fill:currentColor}
-    .toggle-btn{position:fixed;right:18px;top:18px;padding:8px 12px;border-radius:8px;background:var(--accent);color:#fff;border:0;cursor:pointer;box-shadow:0 6px 16px rgba(47,158,68,0.18);font-weight:600;}
-    main{padding:18px 0 80px;}
-    .card{background:var(--card-bg);border-radius:12px;padding:18px;margin-bottom:18px;box-shadow:0 10px 30px rgba(17,17,17,0.04);}
-    .dark-mode .card{background:transparent;border:1px solid rgba(255,255,255,0.06);box-shadow:none}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;align-items:start}
-    .contact-list p{margin:8px 0;font-size:0.98rem}
-    .contact-list a{color:inherit;text-decoration:none;font-weight:600}
-    .search-grid{display:flex;flex-wrap:wrap;gap:10px}
-    .search-btn{display:inline-flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;border:1px solid rgba(0,0,0,0.06);background:white;color:#111;text-decoration:none;font-weight:600;font-size:0.92rem;}
-    .dark-mode .search-btn{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text-dark)}
-    footer{padding:18px;text-align:center;color:#777;font-size:0.92rem}
-    .small{font-size:0.88rem;color:#666}
-    @media (max-width:520px){ .profile-img{width:130px;height:130px} nav a{font-size:0.88rem;padding:7px 10px} }
-  </style>
-</head>
-<body>
-  <button class="toggle-btn" id="themeToggle" aria-pressed="false">Dark mode</button>
+    </script>
 
-  <header>
-    <h1>Boah Ransford</h1>
-    <p class="tagline">Agriculture student focused on creating favorable environments for farm animals and sustainable livestock management.</p>
-    <img src="profile.jpg" alt="Boah Ransford — profile photo" class="profile-img" />
-    <nav aria-label="Primary navigation">
-      <a href="https://www.knust.edu.gh" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3L2 7l10 4 10-4-10-4zM2 17l10 4 10-4V9L12 13 2 9v8z"/></svg>Education</a>
-      <a href="#contact"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 006.6 6.6l1.8-1.8a1 1 0 01.9-.3c1 .3 2.1.5 3.3.5a1 1 0 011 1V20a1 1 0 01-1 1C9.3 21 3 14.7 3 6a1 1 0 011-1h2.6a1 1 0 011 1c0 1.2.2 2.3.5 3.3.1.4 0 .9-.3.9L6.6 10.8z"/></svg>Contact</a>
-      <a href="https://www.linkedin.com/in/ransford-boah" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.78v2.2h.07c.66-1.25 2.28-2.56 4.7-2.56 5.03 0 5.95 3.31 5.95 7.62V24H18.3v-7.75c0-1.85-.03-4.24-2.58-4.24-2.58 0-2.98 2.03-2.98 4.12V24H7.5V8z"/></svg>LinkedIn</a>
-      <a href="https://ransford-boah.github.io/ransford-website/" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.73.5.89 5.34.89 11.62c0 4.73 3.07 8.74 7.33 10.16.54.1.74-.24.74-.52 0-.25-.01-.92-.02-1.8-2.98.65-3.61-1.44-3.61-1.44-.49-1.26-1.2-1.6-1.2-1.6-.98-.67.07-.66.07-.66 1.08.08 1.65 1.12 1.65 1.12.96 1.65 2.52 1.17 3.14.9.1-.7.37-1.17.67-1.44-2.39-.27-4.9-1.2-4.9-5.34 0-1.18.42-2.15 1.11-2.91-.11-.27-.48-1.35.11-2.81 0 0 .92-.29 3.02 1.11A10.4 10.4 0 0112 7.9c.93.01 1.86.13 2.73.38 2.1-1.4 3.02-1.11 3.02-1.11.59 1.46.22 2.54.11 2.81.69.76 1.11 1.73 1.11 2.91 0 4.15-2.52 5.06-4.92 5.33.38.33.72.98.72 1.98 0 1.43-.01 2.58-.01 2.94 0 .29.19.64.75.53 4.25-1.43 7.31-5.43 7.31-10.15C23.11 5.34 18.27.5 12 .5z"/></svg>GitHub</a>
-    </nav>
-  </header>
+    <!-- AMP Auto Ads Script -->
+    <script async custom-element="amp-auto-ads"
+            src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
 
-  <main class="container">
-    <div class="card">
-      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
-        <div>
-          <h2 style="margin:0 0 6px">About</h2>
-          <p class="small" style="margin:0">BSc Agriculture — focused on sustainable livestock management and creating favorable environments for farm animals.</p>
-        </div>
-        <div class="small" style="text-align:right">KNUST student<br/>Ghana</div>
-      </div>
-    </div>
+    <!-- AMP Boilerplate -->
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+        -moz-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+        -ms-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+        animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+      }
+      @-webkit-keyframes -amp-start { from { visibility:hidden } to { visibility:visible } }
+      @-moz-keyframes -amp-start { from { visibility:hidden } to { visibility:visible } }
+      @-ms-keyframes -amp-start { from { visibility:hidden } to { visibility:visible } }
+      @-o-keyframes -amp-start { from { visibility:hidden } to { visibility:visible } }
+      @keyframes -amp-start { from { visibility:hidden } to { visibility:visible } }
+    </style>
+    <noscript>
+      <style amp-boilerplate>
+        body { -webkit-animation:none; -moz-animation:none; -ms-animation:none; animation:none; }
+      </style>
+    </noscript>
 
-    <div class="grid">
-      <div class="card contact-list" aria-labelledby="contactHeading">
-        <h3 id="contactHeading" style="margin-top:0">Contact</h3>
-        <p>Email: <a href="mailto:Boahransford58@gmail.com">Boahransford58@gmail.com</a></p>
-        <p>Phone: <a href="tel:+233595398491">+233 59 539 8491</a></p>
-        <p>WhatsApp: <a href="https://wa.me/233595398491" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
-      </div>
+    <!-- Custom Styles -->
+    <style amp-custom>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f9f9f9;
+      }
+      header {
+        background: #004080;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      nav a {
+        color: #fff;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      section {
+        padding: 40px;
+        text-align: center;
+      }
+      section h2 {
+        color: #004080;
+      }
+      footer {
+        background: #222;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- AMP Auto Ads -->
+    <amp-auto-ads type="adsense"
+                  data-ad-client="ca-pub-5789356814608028">
+    </amp-auto-ads>
 
-      <div class="card" aria-labelledby="searchHeading">
-        <h3 id="searchHeading" style="margin-top:0">Search me on</h3>
-        <p class="small" style="margin:6px 0 12px">Open a search for <strong>Boah Ransford</strong> on any of these platforms:</p>
-        <div class="search-grid" role="group" aria-label="Search buttons">
-          <a class="search-btn" href="https://www.google.com/search?q=Boah+Ransford" target="_blank" rel="noopener">Google</a>
-          <a class="search-btn" href="https://www.bing.com/search?q=Boah+Ransford" target="_blank" rel="noopener">Bing</a>
-          <a class="search-btn" href="https://duckduckgo.com/?q=Boah+Ransford" target="_blank" rel="noopener">DuckDuckGo</a>
-          <a class="search-btn" href="https://www.youtube.com/results?search_query=Boah+Ransford" target="_blank" rel="noopener">YouTube</a>
-          <a class="search-btn" href="https://github.com/search?q=Boah+Ransford" target="_blank" rel="noopener">GitHub</a>
-          <a class="search-btn" href="https://www.linkedin.com/search/results/all/?keywords=Boah%20Ransford" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="search-btn" href="https://www.facebook.com/search?q=Boah%20Ransford" target="_blank" rel="noopener">Facebook</a>
-        </div>
-      </div>
-    </div>
+    <header>
+      <h1>Welcome to Ransford Boah’s Portfolio</h1>
+      <nav>
+        <a href="https://www.knust.edu.gh/" target="_blank">Education</a>
+        <a href="tel:+233595398491">Call Me</a>
+        <a href="https://wa.me/233595398491">WhatsApp</a>
+      </nav>
+    </header>
 
-    <!-- AdSense placeholder: replace YOUR_AD_SLOT_ID with your ad slot ID from AdSense -->
-    <div class="card" style="text-align:center">
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-5789356814608028"
-           data-ad-slot="YOUR_AD_SLOT_ID"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
-      <script>
-         async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5789356814608028"
-     crossorigin="anonymous"
-      </script>
-    </div>
+    <section>
+      <h2>About Me</h2>
+      <p>Hello, I'm <strong>Ransford Boah</strong>, a passionate Agriculture student at <a href="https://www.knust.edu.gh/" target="_blank">KNUST</a> aspiring to become an <em>Animal Scientist</em>. My dream is to improve agriculture and contribute to food security in Ghana and beyond.</p>
+    </section>
 
-  </main>
-
-  <footer>
-    &copy; 2025 <strong>Boah Ransford</strong> — <span class="small">All Rights Reserved</span>
-  </footer>
-
-  <script>
-    // Dark mode toggle (persists to localStorage)
-    const btn = document.getElementById('themeToggle');
-    const body = document.body;
-    const KEY = 'br-dark';
-    function setTheme(isDark){
-      if(isDark){ body.classList.add('dark-mode'); btn.textContent = 'Light mode'; btn.setAttribute('aria-pressed','true'); }
-      else { body.classList.remove('dark-mode'); btn.textContent = 'Dark mode'; btn.setAttribute('aria-pressed','false'); }
-      try { localStorage.setItem(KEY, isDark ? '1' : '0'); } catch(e){}
-    }
-    btn.addEventListener('click', () => setTheme(!body.classList.contains('dark-mode')));
-    // initialize
-    try{
-      const pref = localStorage.getItem(KEY);
-      if(pref === null){
-        const sys = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        setTheme(sys);
-      } else setTheme(pref === '1');
-    } catch(e){ setTheme(false); }
-  </script>
-</body>
+    <footer>
+      <p>📞 Contact: <a href="tel:+233595398491">0595398491</a> | 💬 <a href="https://wa.me/233595398491">WhatsApp Me</a></p>
+      <p>&copy; 2025 Ransford Boah | All Rights Reserved</p>
+    </footer>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
