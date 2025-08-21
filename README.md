@@ -1,2 +1,2 @@
-# ransford-website
-“Ranford’s first web portfolio project”
+ransford-boah.github.io
+
