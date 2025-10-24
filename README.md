@@ -1,2 +1,2 @@
-ransford-boah.github.io
+rboah.github.io
 
